@@ -3,6 +3,7 @@ import Scrollbar from 'smooth-scrollbar'
 import Banner from './section/Banner'
 import Header from './section/Header'
 import About from './section/About'
+import VidSect from './section/VidSect'
 
 import './App.scss'
 
@@ -12,6 +13,7 @@ function App() {
       <Header />
       <Banner />
       <About />
+      <VidSect />
     </div>
   )
 }
