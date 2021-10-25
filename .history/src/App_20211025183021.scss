@@ -327,32 +327,13 @@ header{
 
 footer{
     .featured-companies{
-        background: $black;
-        height: 200px;
-        .container{
-            ul{
-                padding: 0;
-                flex-direction: row;
-                li{
-                    text-align: center;
-                    img{
-                        width: 50%;
-                    }
-                }
-            }
-        }
+
     }
 
     .footer{
-        background: $off-white;
-        height: 80px;
         .inner{
-            padding: 0 120px;
-            height: 80px;
             .socials{
-                a{
-                    margin: 0 15px;
-                }
+                a
             }
         }
     }
